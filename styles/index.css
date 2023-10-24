@@ -1,0 +1,30 @@
+* {
+    font-family: var(--ff);
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap, 1.5rem);
+    padding: 4rem 2rem;
+}
+
+.section h1 {
+    font-weight: var(--fw-600);
+    font-size: var(--fs-700);
+}
+
+.section h3 {
+    font-weight: var(--fw-700);
+    font-size: var(--fs-300);
+}
+
+.section p {
+    color: hsl( var(--clr-light));
+    font-size: var(--fs-300);
+}
