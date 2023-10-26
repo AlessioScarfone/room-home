@@ -19,16 +19,31 @@
   <link rel="stylesheet" href="styles/utils.css">
   <link rel="stylesheet" href="styles/vars.css">
   <link rel="stylesheet" href="styles/index.css">
+  <script src="script/nav.js" defer></script>
 
 </head>
 
 <body class="home">
-  <!-- <nav>
-    Home
-    Shop
-    About
-    Contact
-  </nav> -->
+  <div class="navigation">
+    <button class="mobile-nav-toggle icon-btn" aria-controls="menu" aria-expanded="false">
+      <span class="sr-only">Menu</span>
+    </button>
+    <div class="menu-logo">
+      <img src="./images/logo.svg" alt="logo">
+    </div>
+    <nav class="menu" data-visible="false">
+      <ul>
+        <li><button class="mobile-nav-toggle-close icon-btn" aria-controls="menu" aria-expanded="false">
+          <span class="sr-only">Menu Close</span>
+        </button></li>
+        <li>home</li>
+        <li>shop</li>
+        <li>about</li>
+        <li>contact</li>
+      </ul>
+    </nav>
+  </div>
+
   <div class="hero-imgs img-container">
     <picture id="hero-img-1">
       <source srcset="./images/desktop-image-hero-1.jpg" media="(min-width: 400px)" />
