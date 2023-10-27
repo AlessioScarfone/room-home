@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="styles/vars.css">
   <link rel="stylesheet" href="styles/index.css">
   <script src="script/nav.js" defer></script>
+  <script src="script/slider.js" defer></script>
 
 </head>
 
@@ -42,6 +43,7 @@
   </div>
 
   <div class="hero-imgs img-container">
+    <!-- TODO: try to animate slider -->
     <picture id="hero-img-1">
       <source srcset="./images/desktop-image-hero-1.jpg" media="(min-width: 400px)" />
       <img src="./images/mobile-image-hero-1.jpg" alt="Hero 1">
@@ -54,6 +56,11 @@
       <source srcset="./images/desktop-image-hero-3.jpg" media="(min-width: 400px)" />
       <img src="./images/mobile-image-hero-3.jpg" alt="Hero 2">
     </picture>
+    <div class="slider-controllers">
+      <!-- TODO: Accessibilità?? -->
+      <button class="slider-btn prev"><span class="sr-only">Previous</span></button>
+      <button class="slider-btn next"><span class="sr-only">Next</span></button>
+    </div>
   </div>
 
   <div class="section">
