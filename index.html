@@ -42,76 +42,89 @@
     </nav>
   </div>
 
-  <div class="hero-imgs img-container">
-    <!-- TODO: try to animate slider -->
-    <picture id="hero-img-1">
-      <source srcset="./images/desktop-image-hero-1.jpg" media="(min-width: 400px)" />
-      <img src="./images/mobile-image-hero-1.jpg" alt="Hero 1">
-    </picture>
-    <picture id="hero-img-2" class="d-hide">
-      <source srcset="./images/desktop-image-hero-2.jpg" media="(min-width: 400px)" />
-      <img src="./images/mobile-image-hero-2.jpg" alt="Hero 2">
-    </picture>
-    <picture id="hero-img-3" class="d-hide">
-      <source srcset="./images/desktop-image-hero-3.jpg" media="(min-width: 400px)" />
-      <img src="./images/mobile-image-hero-3.jpg" alt="Hero 2">
-    </picture>
-    <div class="slider-controllers">
-      <button class="slider-btn prev"><span class="sr-only">Previous</span></button>
-      <button class="slider-btn next"><span class="sr-only">Next</span></button>
+  <main>
+
+    <div class="hero-imgs img-container">
+      <!-- TODO: try to animate slider -->
+      <picture id="hero-img-1">
+        <source srcset="./images/desktop-image-hero-1.jpg" media="(min-width: 400px)" />
+        <img src="./images/mobile-image-hero-1.jpg" alt="Hero 1">
+      </picture>
+      <picture id="hero-img-2" class="d-hide">
+        <source srcset="./images/desktop-image-hero-2.jpg" media="(min-width: 400px)" />
+        <img src="./images/mobile-image-hero-2.jpg" alt="Hero 2">
+      </picture>
+      <picture id="hero-img-3" class="d-hide">
+        <source srcset="./images/desktop-image-hero-3.jpg" media="(min-width: 400px)" />
+        <img src="./images/mobile-image-hero-3.jpg" alt="Hero 2">
+      </picture>
+      <div class="slider-controllers">
+        <button class="slider-btn prev"><span class="sr-only">Previous</span></button>
+        <button class="slider-btn next"><span class="sr-only">Next</span></button>
+      </div>
     </div>
-  </div>
 
-  <div class="section">
-    <h1>Discover innovative ways to decorate</h1>
+    <div class="section slider-text-container">
+      <div class="text">
+        <h1>Discover innovative ways to decorate</h1>
 
-    <p>
-      We provide unmatched quality, comfort, and style for property owners across the country.
-      Our experts combine form and function in bringing your vision to life. Create a room in your
-      own style with our collection and make your property a reflection of you and what you love.
-    </p>
+        <p>
+          We provide unmatched quality, comfort, and style for property owners across the country.
+          Our experts combine form and function in bringing your vision to life. Create a room in your
+          own style with our collection and make your property a reflection of you and what you love.
+        </p>
+      </div>
 
-    Shop now
-  </div>
+      <div class="text d-hide">
+        <h1>We are available all across the globe</h1>
 
-  <!-- We are available all across the globe
+        <p>
+          With stores all over the world, it's easy for you to find furniture for your home or place of business.
+          Locally, we’re in most major cities throughout the country. Find the branch nearest you using our
+          store locator. Any questions? Don't hesitate to contact us today.
+        </p>
+      </div>
 
-  With stores all over the world, it's easy for you to find furniture for your home or place of business.
-  Locally, we’re in most major cities throughout the country. Find the branch nearest you using our
-  store locator. Any questions? Don't hesitate to contact us today.
+      <div class="text d-hide">
+        <h1>Manufactured with the best materials</h1>
 
-  Shop now -->
+        <p>
+          Our modern furniture store provide a high level of quality. Our company has invested in advanced technology
+          to ensure that every product is made as perfect and as consistent as possible. With three decades of
+          experience in this industry, we understand what customers want for their home and office.
+        </p>
+      </div>
 
-  <!-- Manufactured with the best materials
 
-  Our modern furniture store provide a high level of quality. Our company has invested in advanced technology
-  to ensure that every product is made as perfect and as consistent as possible. With three decades of
-  experience in this industry, we understand what customers want for their home and office.
+      <button class="shop-now-btn uppercase">
+        Shop now
+        <img aria-hidden="true" src="./images/icon-arrow.svg" alt="show now icon">
+      </button>
+    </div>
 
-  Shop now -->
+    <div class="img-container img-section_1">
+      <picture id="about-image-dark">
+        <img src="./images/image-about-dark.jpg" alt="About Dark">
+      </picture>
+    </div>
 
-  <div class="img-container">
-    <picture id="about-image-dark">
-      <img src="./images/image-about-dark.jpg" alt="About Dark">
-    </picture>
-  </div>
+    <div class="section info-text">
+      <h3 class="uppercase letter-spacing-1"> About our furniture</h3>
 
-  <div class="section">
-    <h3 class="uppercase letter-spacing-1"> About our furniture</h3>
+      <p>
+        Our multifunctional collection blends design and function to suit your individual taste.
+        Make each room unique, or pick a cohesive theme that best express your interests and what
+        inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+        or anything in between. Product specialists are available to help you create your dream space.
+      </p>
+    </div>
 
-    <p>
-      Our multifunctional collection blends design and function to suit your individual taste.
-      Make each room unique, or pick a cohesive theme that best express your interests and what
-      inspires you. Find the furniture pieces you need, from traditional to contemporary styles
-      or anything in between. Product specialists are available to help you create your dream space.
-    </p>
-  </div>
-
-  <div class="img-container">
-    <picture id="about-image-light">
-      <img src="./images/image-about-light.jpg" alt="About Light">
-    </picture>
-  </div>
+    <div class="img-container img-section_2">
+      <picture id="about-image-light">
+        <img src="./images/image-about-light.jpg" alt="About Light">
+      </picture>
+    </div>
+  </main>
 
 </body>
 
