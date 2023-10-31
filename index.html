@@ -58,7 +58,8 @@
         <source srcset="./images/desktop-image-hero-3.jpg" media="(min-width: 400px)" />
         <img src="./images/mobile-image-hero-3.jpg" alt="Hero 2">
       </picture>
-      <div class="slider-controllers">
+      
+      <div class="slider-controllers d-hide-desktop">
         <button class="slider-btn prev"><span class="sr-only">Previous</span></button>
         <button class="slider-btn next"><span class="sr-only">Next</span></button>
       </div>
@@ -97,9 +98,14 @@
 
 
       <button class="shop-now-btn uppercase">
-        Shop now
+        <span>Shop now</span>
         <img aria-hidden="true" src="./images/icon-arrow.svg" alt="show now icon">
       </button>
+
+      <div class="slider-controllers d-hide-mobile">
+        <button class="slider-btn prev"><span class="sr-only">Previous</span></button>
+        <button class="slider-btn next"><span class="sr-only">Next</span></button>
+      </div>
     </div>
 
     <div class="img-container img-section_1">

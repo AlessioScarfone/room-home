@@ -1,5 +1,6 @@
-const prevBtn = document.querySelector('.slider-btn.prev');
-const nextBtn = document.querySelector('.slider-btn.next');
+const prevBtn = document.querySelectorAll('.slider-btn.prev');
+const nextBtn = document.querySelectorAll('.slider-btn.next');
+console.log(prevBtn, nextBtn)
 
 const changeImage = (direction) => () => {
     const pictures = document.querySelectorAll('.hero-imgs picture');
@@ -24,5 +25,6 @@ const mod = (x,m) => {
     return (x%m + m)%m;
 }
 
-prevBtn.addEventListener('click', changeImage('prev'))
-nextBtn.addEventListener('click', changeImage('next'))
+
+prevBtn.forEach(b => b.addEventListener('click', changeImage('prev')))
+nextBtn.forEach(b => b.addEventListener('click', changeImage('next')))
