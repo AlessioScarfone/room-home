@@ -1,0 +1,22 @@
+{
+  "name": "room-home",
+  "version": "1.0.0",
+  "description": "![Design preview for the Room homepage coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "prepostcss": "rm -f styles/bundle.css",
+    "postcss": "npx postcss styles/*.css --use autoprefixer cssnano -d styles/post/ && cat styles/post/* > styles/bundle.css",
+    "postpostcss": "rm -rf styles/post/* && rmdir styles/post"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16",
+    "cssnano": "^6.0.1",
+    "postcss-cli": "^10.1.0"
+  },
+  "dependencies": {
+    
+  }
+}
