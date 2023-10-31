@@ -94,29 +94,6 @@
     max-width: 4rem;
 }
 
-.shop-now-btn img {
-    animation: 0.7s ease-in-out alternate infinite arrow;
-    /* TODO: rimpicciolisci in caso desktop
-     */
-}
-
-/* Remove animation */
-@media (prefers-reduced-motion) {
-    .shop-now-btn img {
-        animation: none;
-    }
-}
-
-@keyframes arrow {
-    from {
-        transform: translateX(0);
-    }
-
-    to {
-        transform: translateX(1rem);
-    }
-}
-
 /* ============== */
 /* ==== MENU ==== */
 /* ============== */

@@ -1,0 +1,66 @@
+.navigation,
+.section {
+    -webkit-animation: 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards slideFromTop;
+    animation: 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) forwards slideFromTop;
+}
+
+.shop-now-btn img {
+    -webkit-animation: 0.7s ease-in-out alternate infinite arrow;
+    animation: 0.7s ease-in-out alternate infinite arrow;
+    /* TODO: rimpicciolisci in caso desktop
+     */
+}
+
+@-webkit-keyframes arrow {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(1rem);
+    }
+}
+
+@keyframes arrow {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(1rem);
+    }
+}
+
+@-webkit-keyframes slideFromTop {
+    from {
+        transform: translateY(-15px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideFromTop {
+    from {
+        transform: translateY(-15px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Remove animation */
+@media (prefers-reduced-motion) {
+    .shop-now-btn img,
+    .navigation,
+    .section {
+        animation: none;
+        -webkit-animation: none;
+    }
+}
