@@ -35,7 +35,7 @@
     }
 }
 
-@media screen and (max-width: 24rem) {
+@media screen and (max-width: 52rem) {
     .d-hide-mobile {
         display: none !important;
     }

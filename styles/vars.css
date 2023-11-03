@@ -22,9 +22,8 @@
     /* font-families */
     --ff: 'League Spartan', sans-serif;
 
-
-    --mobile: 24rem;      /*384px*/
-    --desktop: 90rem;       /*1440px*/
+    --mobile: 40rem;      /*mobile + tablet 640*/
+    --desktop: 90rem;       /*1280px*/
 }
 
 /* .bg-dark { background-color: hsl( var(--clr-dark) );}
