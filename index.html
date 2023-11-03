@@ -15,11 +15,11 @@
 
   <title>Frontend Mentor | Room homepage</title>
   <!-- Custom CSS -->
-  <!-- <link rel="stylesheet" href="styles/reset.css"> -->
-  <!-- <link rel="stylesheet" href="styles/utils.css"> -->
-  <!-- <link rel="stylesheet" href="styles/vars.css"> -->
-  <!-- <link rel="stylesheet" href="styles/index.css"> -->
-  <!-- <link rel="stylesheet" href="styles/animation.css"> -->
+  <!-- <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/utils.css">
+  <link rel="stylesheet" href="styles/vars.css">
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/animation.css"> -->
 
   <!-- PRODUCTION USE BUNDLE CSS -->
   <link rel="stylesheet" href="styles/bundle.css">
@@ -62,7 +62,7 @@
         <source srcset="./images/desktop-image-hero-3.jpg" media="(min-width: 400px)" />
         <img src="./images/mobile-image-hero-3.jpg" alt="Hero 2">
       </picture>
-      
+
       <div class="slider-controllers d-hide-desktop">
         <button class="slider-btn prev"><span class="sr-only">Previous</span></button>
         <button class="slider-btn next"><span class="sr-only">Next</span></button>
@@ -104,7 +104,10 @@
       <button class="shop-now-btn uppercase">
         <span>Shop now</span>
         <span>
-          <img aria-hidden="true" src="./images/icon-arrow.svg" alt="show now icon">
+          <svg aria-hidden="true">
+            <use href="./images/icon-arrow.svg#id"></use>
+          </svg>
+          <!-- <img aria-hidden="true" src="./images/icon-arrow.svg" alt="show now icon"> -->
         </span>
       </button>
 
